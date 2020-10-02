@@ -1,0 +1,7 @@
+{
+  "name": "proxy",
+  "version": 2,
+  "routes": [
+    {"src": "/(.*)","dest": "https://star-blog-valine.avosapps.us/$1"}
+  ]
+}
